@@ -1,0 +1,27 @@
+.modos{
+    display: flex;
+    background-color: rgb(105, 101, 143);
+    justify-content: center;
+    background-image: linear-gradient(rgb(105, 101, 143),rgb(77, 72, 120));
+}
+.modos ul{
+    margin-top: 40px;
+    display: flex;
+
+}
+.modos a{
+    margin: 12px;
+    font-size: 24px;
+    color:rgb(237, 229, 229);
+    text-shadow:2px  2px #000000;
+}
+.modos li{
+    list-style: none;
+    padding-right:32px;
+    font-weight: 700;
+}
+
+#menuHamburguer{
+    margin-right: 50px;
+    color: rgb(237, 229, 229) ;
+}

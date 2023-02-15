@@ -1,0 +1,37 @@
+#root{
+    font-family:'Montserrat', sans-serif;
+}
+.cabecalho{
+    background-color: rgb(77, 72, 120);
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.lista-modos{
+    background-color: rgb(77, 72, 120);
+}
+.cabecalho ul{
+    display: flex;
+}
+.cabecalho img{
+    margin-top: 32px;
+    width: 80%;
+    border: 3px solid;
+    border-radius: 10px ;
+    position: relative;
+}
+.cabecalho h1{
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: -200px;
+    text-shadow: 3px  4px #000000;
+    
+}
+
+.cabecalho h2{
+    color:red;
+    position: relative;
+    top: -200px;
+    text-shadow: 3px  4px #000000;
+    font-size: 28px
+}

@@ -1,0 +1,44 @@
+.section-gambit{
+    display: flex ;
+    background-color: rgb(67, 129, 84);
+    background-image: linear-gradient(rgb(40, 74, 50), rgb(1, 13, 2) );
+    position: relative;
+    flex-direction: column ;
+    border-top: 2px solid black;
+    align-items: center;
+}
+
+.gambit{
+    margin-top:14px;
+    margin-bottom: 14px;
+    margin-left: 24px;
+}
+
+.gambit h1{
+    color:rgb(14, 208, 66);
+    text-shadow: 2px 1px black;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.gambit h1:hover{
+    color:rgb(2, 128, 34);
+    transition: 500ms;
+}
+
+.gambit-texto{
+    display: flex;
+    align-items: center;
+}
+.gambit-texto img{
+    margin-bottom: 24px;
+    border: 3px solid;
+}
+
+.gambit-texto p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    color: gray;
+}
