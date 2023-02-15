@@ -1,4 +1,4 @@
-# React app site do clan Destiny 2 #
+# React app - Site do clan Destiny 2 #
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
