@@ -1,9 +1,11 @@
+
 .modos{
     display: flex;
     background-color: rgb(105, 101, 143);
     justify-content: center;
     background-image: linear-gradient(rgb(105, 101, 143),rgb(77, 72, 120));
 }
+
 .modos ul{
     margin-top: 40px;
     display: flex;
@@ -21,7 +23,15 @@
     font-weight: 700;
 }
 
-#menuHamburguer{
+.menu-hamburguer{
+    align-self: start;
     margin-right: 50px;
     color: rgb(237, 229, 229) ;
 }
+
+.menu-hamburguer:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 500ms;
+}
+

@@ -1,0 +1,44 @@
+.container{
+    transition: width 200ms ease;
+}
+.menu-lateral {
+    top: auto;
+    position:fixed;
+    display: flex;
+    height:100%;
+    left: 0;
+    padding: 8px;
+    background-color: rgb(121, 117, 158);
+    flex-direction: column;
+    z-index: 1000;
+    border: 3px solid rgb(66, 63, 89);
+    align-items: start;
+}
+
+.menu-lateral h2{
+    margin: 10px;
+    color: rgb(66, 63, 89);
+   
+}
+
+.menu-lateral a {
+    margin: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    
+}
+.menu-lateral a:hover{
+    color: black;
+    transition: 400ms;
+    text-shadow:none;
+}
+.menu-lateral__titulo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu-lateral__titulo h2{
+    align-self: flex-end;
+}

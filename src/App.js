@@ -9,7 +9,9 @@ import Footer from './componentes/footer';
 
 function App() {
   return (
-   <div>
+
+  <body>
+    <div>
      <Titulo/>
      <Modos/>
      <Banner/>
@@ -18,6 +20,8 @@ function App() {
      <Gambit/>
      <Footer/>
    </div>
+  </body>
+
   
   );
 }
